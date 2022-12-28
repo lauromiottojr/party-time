@@ -1,3 +1,4 @@
+### SERVICE
 POST http://localhost:3000/api/services
 Content-Type: application/json
 
@@ -28,7 +29,7 @@ Content-Type: application/json
     "image": "https://images.unsplash.com/photo-1672226610887-0de82f16252e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
 }
 
-###
+### PARTY
 POST http://localhost:3000/api/parties
 Content-Type: application/json
 
@@ -40,3 +41,9 @@ Content-Type: application/json
     "image": "https://images.unsplash.com/photo-1672226610887-0de82f16252e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     "services": []
 }
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/ID
