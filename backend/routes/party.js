@@ -8,5 +8,7 @@ router.route("/parties").get((req, res) => partyController.getAll(req, res))
 
 router.route("/parties/:id").get((req, res) => partyController.getById(req, res))
 
+router.route("/parties/:id").delete((req, res) => partyController.delete(req, res))
+
 
 module.exports = router;
