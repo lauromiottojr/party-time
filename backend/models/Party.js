@@ -25,8 +25,9 @@ const partySchema = new Schema({
         type: String,
         required: true
     },
+    // AQUI ESTÁ O ERRO!
     services: {
-        type: [serviceSchema]
+        type: [serviceSchema.schema],
     },
 }, { timestamps: true })
 
